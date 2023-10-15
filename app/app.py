@@ -20,8 +20,8 @@ cc.initialize_cache("./jax_cache")
 checkpoint = "openai/whisper-large-v2"
 
 BATCH_SIZE = 8
-CHUNK_LENGTH_S = 30
-NUM_PROC = 32
+CHUNK_LENGTH_S = 6
+NUM_PROC = 128
 FILE_LIMIT_MB = 1000
 YT_LENGTH_LIMIT_S = 7200  # limit to 2 hour YouTube files
 
