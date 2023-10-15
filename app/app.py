@@ -17,7 +17,7 @@ from whisper_jax import FlaxWhisperPipline
 
 
 cc.initialize_cache("./jax_cache")
-checkpoint = "openai/whisper-base"
+checkpoint = "openai/whisper-large-v2"
 
 BATCH_SIZE = 32
 CHUNK_LENGTH_S = 30
