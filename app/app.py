@@ -19,8 +19,8 @@ from whisper_jax import FlaxWhisperPipline
 cc.initialize_cache("./jax_cache")
 checkpoint = "openai/whisper-large-v2"
 
-BATCH_SIZE = 8
-CHUNK_LENGTH_S = 6
+BATCH_SIZE = 4
+CHUNK_LENGTH_S = 30
 NUM_PROC = 32
 FILE_LIMIT_MB = 1000
 YT_LENGTH_LIMIT_S = 7200  # limit to 2 hour YouTube files
